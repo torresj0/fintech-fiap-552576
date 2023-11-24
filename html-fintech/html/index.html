@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário Liberty</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    
+    <div class="container">
+    <h1 id="logo">Liberty</h1>
+    <small style="color: white;" class="small-text">Be part of the change</small>
+    <br><br><br><br><br><br>
+  <form action="/html/passcreate.html" method="post">
+    <div>
+      <small>* Como gostaria de ser chamado?</small>
+      <input type="text" id="nome" name="nome" placeholder="Ex: João Pedro Torres" required>
+    </div>
+    <div>
+      <small>* Informe sua data de nascimento:</small>
+      <input type="date" id="nascimento" name="nascimento" placeholder="ex: 23/11/2004" required>
+    </div>
+    <div>
+      <small>* Escolha seu nível de conhecimento:</small>
+      <select id="conhecimento" name="conhecimento" required>
+        <option value="" disabled selected>Escolha seu nível de conhecimento</option>
+        <option value="basico">Básico</option>
+        <option value="intermediario">Intermediário</option>
+        <option value="avancado">Avançado</option>
+      </select>
+    </div>
+    <div>
+      <small>* Informe seu melhor email: </small>
+      <input type="email" id="email" name="email" placeholder="ex: joao@fintech.com" required>
+    </div>
+    <br><br>
+    <input type="submit" value="NEXT" id="redirectToPage2">
+  
+  </form>
+</div>
+
+
+
+
+</body>
+</html>
